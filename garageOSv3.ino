@@ -30,7 +30,7 @@ pinMode(RDC, OUTPUT);
     Serial.print(".");
   }
   
-  if (MDNS.begin("GarageRight")) {  //Start mDNS with name esp8266
+  if (MDNS.begin("GarageRight")) {  //Start mDNS with name GarageRight
       Serial.println("MDNS started");
     }
   
